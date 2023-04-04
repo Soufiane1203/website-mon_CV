@@ -1,0 +1,109 @@
+/* Body styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+/* Main content styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Profile section styles */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.profile h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.profile h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.profile ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.profile li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Contact section styles */
+.contact {
+  margin-top: 40px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact input[type="submit"]:hover {
+  background-color: #444;
+}
